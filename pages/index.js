@@ -13,7 +13,7 @@ export default function Home() {
         <p className="description">Upload your photo to a shared Google Photos folder or send by email.</p>
 
         <div className="grid">
-          <a href="https://photos.app.goo.gl/fyaR7bK1FAirUkpT6" className="card">
+          <a href="https://photos.app.goo.gl/fyaR7bK1FAirUkpT6" className="card" target="_blank">
             <h3>Upload to Google Photos</h3>
             <p>Log in to your Google account.</p> 
             <p className="disclaimer"><small>Your email and photos that you add will be visible to others.</small></p>
