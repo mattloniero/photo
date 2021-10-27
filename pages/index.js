@@ -4,47 +4,26 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Modern Vascular Digital Shared Album</title>
+        { /*<link rel="icon" href="/favicon.ico" /> */ }
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <h1 className="title">Upload Mardis Gras Photos</h1>
+        <p className="description">Upload your photo to a shared Google Photos folder or send by email.</p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://photos.app.goo.gl/fyaR7bK1FAirUkpT6" className="card">
+            <h3>Upload to Google Photos</h3>
+            <p>Log in to your Google account.</p> 
+            <p className="disclaimer"><small>Your email and photos that you add will be visible to others.</small></p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="mailto:mloniero@gmail.com" className="card">
+            <h3>Email your Photos</h3>
+            <p>Embed images or add them as an attachment.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
@@ -140,17 +119,16 @@ export default function Home() {
 
         .grid {
           display: flex;
-          align-items: center;
+          flex-direction: column;
           justify-content: center;
           flex-wrap: wrap;
 
-          max-width: 800px;
+          max-width: 60ch;
           margin-top: 3rem;
         }
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
@@ -180,6 +158,11 @@ export default function Home() {
 
         .logo {
           height: 1em;
+        }
+
+        .disclaimer {
+          line-height: 1.2 !important;
+          max-width: 24ch;
         }
 
         @media (max-width: 600px) {
