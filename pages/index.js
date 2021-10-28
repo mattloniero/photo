@@ -9,17 +9,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">Upload Mardis Gras Photos</h1>
-        <p className="description">Upload your photo to a shared Google Photos folder or send by email.</p>
+        <p className="supertitle">Modern Vascular Digital Team</p>
+        <h1 className="title">Upload Mardi Gras Photos</h1>
+        <p className="description">Upload your photos to a shared Google Photos album or send in an email.</p>
 
         <div className="grid">
-          <a href="https://photos.app.goo.gl/fyaR7bK1FAirUkpT6" className="card" target="_blank">
+          <a href="https://photos.app.goo.gl/ncfrYn7RkkxnX3d47" className="card" target="_blank">
             <h3>Upload to Google Photos</h3>
             <p>Log in to your Google account.</p> 
-            <p className="disclaimer"><small>Your email and photos that you add will be visible to others.</small></p>
+            <p className="disclaimer"><small>Your email address and the photos that you add will be visible to others.</small></p>
           </a>
 
-          <a href="mailto:mloniero@gmail.com" className="card">
+          <a href="mailto:sashe@nobilitymail.com?subject=Digital%20Team%20Mardi%20Gras%20Photos&body=I%20will%20attach%20my%20Mardi%20Gras%20photos%20to%20this%20email." className="card">
             <h3>Email your Photos</h3>
             <p>Embed images or add them as an attachment.</p>
           </a>
@@ -28,13 +29,8 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+        <a href="https://modernvascular.com/patient-stories-thomas/">
+          &copy; 2021 Modern Vascular Digital Team
         </a>
       </footer>
 
@@ -49,7 +45,7 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 1rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -81,6 +77,13 @@ export default function Home() {
           text-decoration: none;
         }
 
+        .supertitle,
+        .footer a {
+          font-size: 1em;
+          text-transform: uppercase;
+          font-weight: 200;
+        }
+
         .title a {
           color: #0070f3;
           text-decoration: none;
@@ -95,17 +98,18 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 1.8rem;
         }
 
         .title,
-        .description {
+        .description,
+        .supertitle {
           text-align: center;
         }
 
         .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
+          line-height: 1.4;
+          font-size: 1.4rem;
         }
 
         code {
@@ -124,7 +128,7 @@ export default function Home() {
           flex-wrap: wrap;
 
           max-width: 60ch;
-          margin-top: 3rem;
+          margin-top: 1rem;
         }
 
         .card {
