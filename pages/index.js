@@ -166,7 +166,7 @@ export default function Home() {
 
         .disclaimer {
           line-height: 1.2 !important;
-          max-width: 24ch;
+          max-width: 28ch;
         }
 
         @media (max-width: 600px) {
