@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Modern Vascular Digital Shared Album</title>
+        <title>Modern Vascular Shared Photo Album</title>
         { /*<link rel="icon" href="/favicon.ico" /> */ }
       </Head>
 
       <main>
-        <p className="supertitle">Modern Vascular Digital Team</p>
-        <h1 className="title">Upload Mardi Gras Photos</h1>
+        <p className="supertitle">Modern Vascular</p>
+        <h1 className="title">Upload Red Sock Day Photos</h1>
         <p className="description">Upload your photos to a shared Google Photos album or send in an email.</p>
 
         <div className="grid">
@@ -25,13 +25,13 @@ export default function Home() {
             <p>Embed images or add them as an attachment.</p>
           </a>
 
+          <div><a href="https://modernvascular.com/peripheral-artery-disease/">Minimally invasive endovascular procedures</a> for peripheral artery disease. </div>
+
         </div>
       </main>
 
       <footer>
-        <a href="https://modernvascular.com/patient-stories-thomas/">
-          &copy; 2021 Modern Vascular Digital Team
-        </a>
+          &copy; 2022 Modern Vascular Digital Team
       </footer>
 
       <style jsx>{`
